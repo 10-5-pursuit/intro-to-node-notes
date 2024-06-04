@@ -10,6 +10,10 @@ const message = "Say hello to my lil friend!"
 const name = "Tony"
 const thirdVar = "Montana"
 
-module.exports = { message, name, thirdVar }
+const customMessage = (msg, personName) => {
+    return `${msg}, love ${personName}.`
+}
+
+module.exports = { message, name, thirdVar, customMessage }
 
 
